@@ -64,4 +64,6 @@ defineCustomElements(window);
 
 Component can be integrated witin any template or angular component using the component name like below
 
+```
 <activity-search-widget></activity-search-widget>
+```
