@@ -7,7 +7,9 @@
     },
     "scripts": {
         "build": "webpack --mode production",
-        "start": "webpack-dev-server --mode development --open"
+        "dev": "stencil build --prod --serve",
+        "run-local": "webpack-dev-server --mode development --open",
+        "start": "npm run dev"
     },
     "license": "MIT",
     "dependencies": {
