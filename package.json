@@ -7,9 +7,7 @@
     },
     "scripts": {
         "build": "webpack --mode production",
-        "dev": "stencil build --prod --serve",
-        "run-local": "webpack-dev-server --mode development --open",
-        "start": "npm run dev"
+        "start": "webpack-dev-server --mode production --open"
     },
     "license": "MIT",
     "dependencies": {
@@ -20,7 +18,7 @@
         "@angular/platform-browser": "^7.0.1",
         "@angular/platform-browser-dynamic": "^7.0.1",
         "@angular/router": "^7.0.1",
-        "activity-search-widget": "0.0.29",
+        "activity-search-widget": "0.0.39",
         "core-js": "^2.5.7",
         "rxjs": "^6.3.3",
         "zone.js": "^0.8.26"
